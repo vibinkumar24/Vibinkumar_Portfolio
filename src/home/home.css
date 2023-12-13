@@ -1,0 +1,207 @@
+
+#totaldiv3{
+    background-color: black;
+        width:100%;
+        height: 625px;
+}
+
+@media (max-width:430px){
+    #totaldiv3{
+        background-color: black;
+        width:100%;
+        height: 860px; margin-top: 0px;
+        background-image: url(./myimage9.jpg);
+        background-repeat: no-repeat;
+        background-size:cover;
+    }
+}
+
+#firstdiv1{
+    width:550px;
+    height:100px;
+    margin-top:120px;
+    margin-left:25px;
+    color:white;
+    float:left;
+}
+
+@media (max-width:430px){
+    #firstdiv1{
+        width: 350px;
+        height: 380px;
+        margin-top:530px;
+        margin-left:15px;
+       
+    }
+}
+
+
+
+
+#thirddiv{
+    width: 330px;
+    height:45px;
+}
+
+@media (max-width:430px){
+    #thirddiv{
+        margin-top: 20px;
+        margin-left: 6px;
+        width: 200px;
+        height:40px;
+        border-radius: 25px;
+        
+       
+    }
+}
+
+#thirddiv:hover{
+    border-radius: 25px;
+    transition-duration: 2s;
+    transform: scale(1.05);
+    box-shadow: 0 0 12px #00fffc;
+}
+
+.nav{
+    background-color: black;
+    position: sticky;
+    top: 0;
+}
+
+
+.nav-link{
+    color: white;
+}
+
+.nav-link:hover{
+    color: blue;
+    transition-duration: 1s;
+    transform: scale(1.30);
+    
+}
+
+.socialimg{
+    margin-top: 30px;
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+    animation-name: ani1;
+    animation-duration:2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes ani1{
+    0%{
+        transform: scale(1.4, 1.4);
+        cursor: pointer;
+    transition-duration: .3s;
+    transform: scale(1.15);
+    box-shadow: 0 0 8px #00fffc;
+}
+}
+
+@media (max-width:430px){
+    .socialimg{
+        margin-top: 10px;
+        width: 40px;
+        height: 30px;
+    }
+}
+
+.socialimg:hover{
+    cursor: pointer;
+    transition-duration: .3s;
+    transform: scale(1.15);
+    box-shadow: 0 0 15px #09ff00;
+}
+
+
+#myText{
+    animation-name: ani2;
+    animation-duration: 1.5s;
+    font-family:"Nunito"; 
+    font-size:30px;
+}
+
+@keyframes ani2 {
+    0% {
+        
+        font-size:0px;
+    }
+}
+
+@media (max-width:430px){
+    #myText{
+        font-size: 30px;
+    }
+}
+
+#myNam{
+    animation-name: ani3;
+    animation-duration: 4s;
+    font-family:"Bungee Spice"; 
+    font-size:50px;
+}
+
+@keyframes ani3 {
+    0% {
+        transform: translatex(-600px);
+    }
+}
+
+@media (max-width:430px){
+    #myNam{
+        font-size: 37px;
+    }
+}
+
+
+#myText2{
+    font-family:"Nunito";
+     font-size:25px;
+}
+
+@media (max-width:430px){
+    #myText2{
+        font-size: 23px;
+    }
+}
+
+
+#res{
+    margin-top:80px;
+    margin-left:80px;
+    text-decoration:none;
+    color:white;
+
+}
+
+@media (max-width:430px){
+    #res{
+        margin-top:15px;
+        margin-left:40px;
+        font-size: 30px;
+        
+    }
+}
+
+#seconddiv1{
+    float:right;
+}
+
+#im{
+    float:right;
+    width:550px;
+    height:620px;
+    
+}
+
+@media (max-width:430px){
+    #im{
+        float:left;
+        width:400px;
+        height:425px;
+        display: none;
+        
+    }
+}

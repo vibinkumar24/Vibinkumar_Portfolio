@@ -1,0 +1,65 @@
+#totaldiv1{
+    width: 100%;
+    height: 800px;
+    background-color: black;
+}
+
+@media (max-width:430px){
+    #totaldiv1{
+        background-color: black;
+        height: 1600px;
+    }
+}
+
+
+#fourthdiv{
+    float: left;
+    margin-top: 60px;
+    margin-left: 300px;
+} 
+
+@media (max-width:430px){
+    #fourthdiv{
+        margin-left: 60px;
+    }
+}
+
+
+#fifthdiv{
+    float: right;
+    margin-top: 60px;
+   margin-right: 300px;
+}
+
+@media (max-width:430px){
+    #fifthdiv{
+        float: left;
+        margin-left: 60px;
+    }
+}
+
+#sixthdiv{
+    float: left;
+    margin-top: 60px;
+    margin-left: 300px;
+}
+
+@media (max-width:430px){
+    #sixthdiv{
+        margin-left: 60px;
+    }
+}
+
+#seventhdiv{
+    float: right;
+    margin-top: 60px;
+   margin-right: 300px;
+}
+
+@media (max-width:430px){
+    #seventhdiv{
+        float: left;
+        margin-left: 60px;
+        margin-top: 40px;
+    }
+}
