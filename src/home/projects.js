@@ -30,7 +30,7 @@ function Projects() {
                 <div class="card-body">
                     <h5 class="card-title">SAVOY</h5>
                     <p class="card-text">Savoy E-commerce Website using HTML, CSS</p>
-                    <a href="http://127.0.0.1:5500/portfolio/src/home/project2.html" class="btn btn-primary">View Project</a>
+                    <a href="https://savoy-e-commerce.vercel.app/" class="btn btn-primary">View Project</a>
                 </div>
             </div>
             </div>
@@ -41,7 +41,7 @@ function Projects() {
                 <div class="card-body">
                     <h5 class="card-title">RESUME</h5>
                     <p class="card-text">Resume Building Website using HTML, CSS</p>
-                    <a href="http://127.0.0.1:5500/portfolio/src/home/vibinkumar.html" class="btn btn-primary">View Project</a>
+                    <a href="https://vibinkumar-resume.vercel.app/" class="btn btn-primary">View Project</a>
                 </div>
             </div>
             </div>
