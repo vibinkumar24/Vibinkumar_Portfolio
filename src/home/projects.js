@@ -19,7 +19,7 @@ function Projects() {
                 <div class="card-body">
                     <h5 class="card-title">SpaceX</h5>
                     <p class="card-text">SpaceX Clone Website using HTML, CSS, Bootstrap </p>
-                    <a href="#" class="btn btn-primary">View Project</a>
+                    <a href="https://space-x-lemon-xi.vercel.app/" class="btn btn-primary">View Project</a>
                 </div>
             </div>
             </div>

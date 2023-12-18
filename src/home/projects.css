@@ -4,7 +4,7 @@
     background-color: black;
 }
 
-@media (max-width:430px){
+@media (max-width:600px){
     #totaldiv1{
         background-color: black;
         height: 1600px;
@@ -18,7 +18,7 @@
     margin-left: 300px;
 } 
 
-@media (max-width:430px){
+@media (max-width:600px){
     #fourthdiv{
         margin-left: 60px;
     }
@@ -31,7 +31,7 @@
    margin-right: 300px;
 }
 
-@media (max-width:430px){
+@media (max-width:600px){
     #fifthdiv{
         float: left;
         margin-left: 60px;
@@ -44,7 +44,7 @@
     margin-left: 300px;
 }
 
-@media (max-width:430px){
+@media (max-width:600px){
     #sixthdiv{
         margin-left: 60px;
     }
@@ -56,7 +56,7 @@
    margin-right: 300px;
 }
 
-@media (max-width:430px){
+@media (max-width:600px){
     #seventhdiv{
         float: left;
         margin-left: 60px;

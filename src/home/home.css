@@ -5,7 +5,7 @@
         height: 625px;
 }
 
-@media (max-width:430px){
+@media (max-width:600px){
     #totaldiv3{
         background-color: black;
         width:100%;
@@ -25,7 +25,7 @@
     float:left;
 }
 
-@media (max-width:430px){
+@media (max-width:600px){
     #firstdiv1{
         width: 350px;
         height: 380px;
@@ -43,7 +43,7 @@
     height:45px;
 }
 
-@media (max-width:430px){
+@media (max-width:600px){
     #thirddiv{
         margin-top: 20px;
         margin-left: 6px;
@@ -80,7 +80,7 @@
     transform: scale(1.30);
     color: white;
     background: linear-gradient(to right, rgb(0,168,253),yellow 50%);
-    background-size:45% auto;
+    background-size:60% auto;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     
@@ -106,7 +106,7 @@
 }
 }
 
-@media (max-width:430px){
+@media (max-width:600px){
     .socialimg{
         margin-top: 10px;
         width: 40px;
@@ -137,7 +137,7 @@
     }
 }
 
-@media (max-width:430px){
+@media (max-width:600px){
     #myText{
         font-size: 30px;
     }
@@ -156,7 +156,7 @@
     }
 }
 
-@media (max-width:430px){
+@media (max-width:600px){
     #myNam{
         font-size: 37px;
     }
@@ -168,7 +168,7 @@
      font-size:25px;
 }
 
-@media (max-width:430px){
+@media (max-width:600px){
     #myText2{
         font-size: 23px;
     }
@@ -187,7 +187,7 @@
 
 }
 
-@media (max-width:430px){
+@media (max-width:600px){
     #res{
         margin-top:15px;
         margin-left:40px;
@@ -207,7 +207,7 @@
     
 }
 
-@media (max-width:430px){
+@media (max-width:600px){
     #im{
         float:left;
         width:400px;

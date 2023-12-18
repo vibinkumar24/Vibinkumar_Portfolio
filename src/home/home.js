@@ -9,7 +9,7 @@ import Image3 from "./face2.jpg";
 import Image4 from "./twi1.jpg";
 import Image5 from "./insta1.jpg";
 import "./home.css";
-
+import About from "./about";
 
 
 
