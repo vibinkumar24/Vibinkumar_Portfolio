@@ -60,6 +60,7 @@
     transition-duration: 2s;
     transform: scale(1.05);
     box-shadow: 0 0 12px #00fffc;
+    
 }
 
 .nav{
@@ -74,9 +75,14 @@
 }
 
 .nav-link:hover{
-    color: blue;
+    
     transition-duration: 1s;
     transform: scale(1.30);
+    color: white;
+    background: linear-gradient(to right, rgb(0,168,253),yellow 50%);
+    background-size:45% auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     
 }
 
@@ -121,6 +127,7 @@
     animation-duration: 1.5s;
     font-family:"Nunito"; 
     font-size:30px;
+    
 }
 
 @keyframes ani2 {
@@ -173,6 +180,10 @@
     margin-left:80px;
     text-decoration:none;
     color:white;
+    background: linear-gradient(to right, rgb(0,168,253),#f5f2f2 50%);
+    background-size:55% auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 
 }
 

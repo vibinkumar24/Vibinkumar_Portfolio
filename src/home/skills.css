@@ -32,11 +32,15 @@
 }
 
 .head1{
-    color:white;
     text-decoration:underline;
     margin-left: 10px;
     font-size: 30px;
     margin-left: 20px;
+    color: white;
+    background: linear-gradient(to right, rgb(253, 59, 0),#0da5c0 50%);
+    background-size:90% auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 @media (max-width:430px){

@@ -52,7 +52,7 @@ function Projects() {
                 <div class="card-body">
                     <h5 class="card-title">Registration Form</h5>
                     <p class="card-text">Student Registration Form using HTML, CSS, JavaScript</p>
-                    <a href="../navbar.html" class="btn btn-primary">View Project</a>
+                    <a href="https://student-registration-form-lake.vercel.app/" class="btn btn-primary">View Project</a>
                 </div>
             </div>
             </div>
