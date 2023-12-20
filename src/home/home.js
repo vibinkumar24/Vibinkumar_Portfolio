@@ -107,21 +107,21 @@ function Home() {
                 <div id="aca-det">
                     <h2 id="aca">ACADEMICS DETAILS</h2>
                     <img onClick={myClick3} id="clg" src={Image6} />
-                    <h3> &nbsp;Click Image</h3>
+                    <h3 class="click-img"> &nbsp;Click Image</h3>
                     <div id="clg-div">
                         <h2 id="clg-year">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2019-2023</h2>
-                        <h3>I completed My Bachelor Of Engineering in Electriacal and Elctronics Engineering and I scored 7.92 CPGA in Velammal Engineering College Surapet,Chennai.
+                        <h3 class="click-img">I completed My Bachelor Of Engineering in Electriacal and Elctronics Engineering and I scored 7.92 CPGA in Velammal Engineering College Surapet,Chennai.
                         </h3>
                     </div>
                     <img onClick={myClick4} id="sch" src={Image7} />
-                    <h3>Click Image</h3>
+                    <h3 class="click-img">Click Image</h3>
                     <div id="sch-div1">
                         <h2 id="sch-year1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2018-2019</h2>
-                        <h3>I Completed My Higher Secondary Certification(HSC)from S.E.T Vidhya devi Matric Hr Sec School at pattukkottai with 57.66 %.</h3>
+                        <h3 class="click-img">I Completed My Higher Secondary Certification(HSC)from S.E.T Vidhya devi Matric Hr Sec School at pattukkottai with 57.66 %.</h3>
                     </div>
                     <div id="sch-div2">
                         <h2 id="sch-year2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2016-2017</h2>
-                        <h3>I Completed My Secondary School Leaving Certificate(SSLC) from S.E.T Vidhya devi Matric Hr Sec School at pattukkottai with 90.2%.</h3>
+                        <h3 class="click-img">I Completed My Secondary School Leaving Certificate(SSLC) from S.E.T Vidhya devi Matric Hr Sec School at pattukkottai with 90.2%.</h3>
                     </div>
 
                 </div>
