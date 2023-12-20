@@ -7,7 +7,7 @@
 
 @media (max-width:600px){
     #totaldiv2{
-        height: 656px;
+        height: 720px;
     }
 }
 
@@ -62,7 +62,7 @@
 
 @media (max-width:600px){
     #copyRights{
-        margin-top: 140px;
+        margin-top: 110px;
         margin-left: 45px;
         font-size: 13px;
     }
