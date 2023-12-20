@@ -3,10 +3,9 @@ import "./contact.css"
 function Contact(){
 
 
-    // function buttonClear() {
-    //     const element = document.getElementById('text').value;
-    //     element.reset()
-    //   }
+    function buttonClear() {
+        var a=alert("succesfully submitted ✔️...Have a good day ✨")
+      }
 
 
 
@@ -23,7 +22,7 @@ function Contact(){
                 <h4>&#128172;&nbsp;For any queries :</h4>
                 <form>
                 <textarea id="text"></textarea><br/>
-                <button id="btn" type="submit">Submit</button>
+                <button id="btn" onClick={buttonClear} type="submit">Submit</button>
                 </form>
             </div>
 
