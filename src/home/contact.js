@@ -14,6 +14,7 @@ function Contact(){
 
         <>
         <div id="totaldiv2">
+        <h6 style={{color:"black"}}>.</h6>
             <div id="eighthdiv">
                 <h3>&#128100;&nbsp;VIBINKUMAR. V</h3><br/>
                 <h3 id="myhome">&#9750;&nbsp;&nbsp;NO: 384, Nadakadu,<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kuruvikkarambai(po),Peravurani(tk),<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Thanjavur(dt)-614802</h3><br/>

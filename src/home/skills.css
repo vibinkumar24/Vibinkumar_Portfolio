@@ -37,8 +37,8 @@
     font-size: 30px;
     margin-left: 20px;
     color: white;
-    background: linear-gradient(to right, rgb(253, 59, 0),#0da5c0 50%);
-    background-size:90% auto;
+    background: linear-gradient(to right, rgb(253, 59, 0),#c0a50d 50%);
+    background-size:87% auto;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -52,18 +52,18 @@
 
 #seconddiv{
     margin-left: 100px;
-    margin-top: 60px;
+    margin-top: 0px;
     width: 1000px;
-    height: 540px;
+    height: 550px;
     border-radius: 10px;
-    box-shadow: 0 0 8px #00fffc;
+    box-shadow: 0 0 8px #fbff00;
 
     
 }
 
 @media (max-width:600px){
     #seconddiv{
-        margin-top: 40px;
+        margin-top: 0px;
         margin-left: 13px;
         width: 365px;
     }
@@ -74,6 +74,7 @@
     font-family: Nunito;
     font-size: 30px;
     margin-left: 20px;
+    font-weight:bolder;
 
 }
 
@@ -86,4 +87,16 @@
 .head2{
     color: white;
     margin-left: 20px;
+    background: linear-gradient(to right, rgb(253, 59, 0),#c0a50d 50%);
+    background-size:87% auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.head3{
+    color:white;
+    margin-left: 20px;
+     background: linear-gradient(to right, rgb(253, 249, 0),#f5f2f2 50%);
+    background-size:55% auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
