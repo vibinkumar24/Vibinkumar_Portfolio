@@ -109,7 +109,7 @@
     box-shadow: 0 0 8px #00fffc;
 }
 #inner-per1{
-    width: 470px;
+    width: 485px;
     height: 20px;
     background-color: blue;
     border-radius: 10px;
@@ -121,7 +121,7 @@
         width: 300px;
     }
     #inner-per1{
-        width: 270px;
+        width: 285px;
     }
 }
 
@@ -134,7 +134,7 @@
     box-shadow: 0 0 8px #00fffc;
 }
 #inner-per2{
-    width: 440px;
+    width: 475px;
     height: 20px;
     background-color: blue;
     border-radius: 10px;
@@ -146,7 +146,7 @@
         width: 300px;
     }
     #inner-per2{
-        width: 240px;
+        width: 275px;
     }
 }
 
