@@ -70,9 +70,7 @@ function Home() {
                 <div id="firstdiv1">
                     <h5 id="myText"><b>Hi it's Me</b></h5>
                     <h1 id="myNam">Vibinkumar</h1>
-                    <h5 id="myText2"><b>I'm a professional Web Developer. Our Main Goal is to help &
-                        Satisfied the Local & Global Clients by web development solutions</b></h5>
-
+                    <h5 id="myText2"><b>I am a professional web developer with the main goal of providing web development solutions to satisfy both local and global clients.</b></h5>
                     <a href={"https://www.linkedin.com/in/vibinkumar-v-79253821a"}><img class="socialimg" src={Image2} /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     <a href={"https://www.facebook.com/vibinkumar.vibinkumar.353?mibextid=ZbWKwL"}><img class="socialimg" src={Image3} /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     <a href={"https://twitter.com/Vibinku91766659?t=60ftSC412bdeLJmrncIeUw&s=08"}><img class="socialimg" src={Image4} /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -96,7 +94,7 @@ function Home() {
                 <h6 style={{ color: "black" }}>.</h6>
                 <div id="seconddiv">
                     <h1 class="head1">ABOUT ME</h1><br />
-                    <h5 class="myText1">Hi I'am Vibinkumar as a highly motivated engineering student with a passion for technology and a strong foundation in engineering principles,i am eager to embark on a dynamic career in the it industry, my career objectives are centered around by:</h5><br />
+                    <h5 class="myText1">Hi I'am Vibinkumar as a highly motivated engineer with a passion for technology and a strong foundation in engineering principles,i am eager to embark on a dynamic career in the it industry, my career objectives are centered around by:</h5><br />
                     <h3 class="head3">&#10143;Technical Proficiency</h3>
                     <h3 class="head3">&#10143;Problem-Solving Skills</h3>
                     <h3 class="head3">&#10143;Leadership Aspirations</h3>
@@ -108,14 +106,14 @@ function Home() {
                 <div id="aca-det">
                     <h2 id="aca">ACADEMICS DETAILS</h2>
                     <img onClick={myClick3} id="clg" src={Image6} />
-                    <h3 style={{color:"yellow"}} class="click-img"> &nbsp;Click Image</h3>
+                    <h3 style={{ color: "yellow" }} class="click-img"> &nbsp;Click Image</h3>
                     <div id="clg-div">
                         <h2 id="clg-year">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2019-2023</h2>
-                        <h3 class="click-img">I completed My Bachelor Of Engineering in Electriacal and Elctronics Engineering and I scored 7.92 CPGA in Velammal Engineering College Surapet,Chennai.
+                        <h3 class="click-img">I completed My Bachelor Of Engineering in Electrical and Electronics Engineering with an Overall CGPA of 7.92 in Velammal Engineering College Surapet,Chennai.
                         </h3>
                     </div>
                     <img onClick={myClick4} id="sch" src={Image7} />
-                    <h3 style={{color:"yellow"}} class="click-img">Click Image</h3>
+                    <h3 style={{ color: "yellow" }} class="click-img">Click Image</h3>
                     <div id="sch-div1">
                         <h2 id="sch-year1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2018-2019</h2>
                         <h3 class="click-img">I Completed My Higher Secondary Certification(HSC)from S.E.T Vidhya devi Matric Hr Sec School at pattukkottai with 57.66 %.</h3>
@@ -138,13 +136,13 @@ function Home() {
                 <div id="int">
                     <h2 id="int-det">INTERNSHIP</h2>
                     <h3 id="int-tit1">IOT Internship</h3>
-                    <h4>Internship on Internet of things completed at VERZEO
+                    <h4>Completed the Internship on Internet of things at VERZEO
                         from 01/05/2021 to 30/06/2021.</h4>
-                        <img id="int-img1" src={Image9} />
+                    <img id="int-img1" src={Image9} />
                     <h3 id="int-tit2">EQUAD Internship</h3>
                     <h4>Completed the Internship at EQUAD Engineering Services
                         Pvt.Ltd. from 13/12/2021 to 31/12/2021.</h4>
-                        <img id="int-img2" src={Image10} />
+                    <img id="int-img2" src={Image10} />
 
                 </div>
             </div>
