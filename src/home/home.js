@@ -10,7 +10,7 @@ import Image4 from "./twi1.jpg";
 import Image5 from "./insta1.jpg";
 import Image6 from "./velammal.jpg";
 import Image7 from "./set.png";
-import Image8 from "./project1.jpg";
+import Image8 from "./project3.jpg";
 import Image9 from './verzeo.png'
 import Image10 from './Equad.png'
 import "./home.css";
