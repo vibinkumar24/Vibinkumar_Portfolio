@@ -16,7 +16,7 @@ function Contact(){
         <h6 style={{color:"black"}}>.</h6>
             <div id="eighthdiv">
                 <h3>&#128100;&nbsp;VIBINKUMAR. V</h3><br/>
-                <h3 id="myhome">&#9750;&nbsp;&nbsp;NO: 384, Nadakadu,<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kuruvikkarambai(po),Peravurani(tk),<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Thanjavur(dt)-614802</h3><br/>
+                <h3 id="myhome">&#9750;&nbsp;&nbsp;A603, A Block,<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Radiance Mercury Apartment, <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gandhi Nagar Society,<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Perumbakkam, Chennai-600100.</h3><br/>
                 <h3> &#9743;&nbsp;&nbsp;+919360249708</h3><br/>
                 <h3>&#9993;&nbsp;&nbsp;vibinpvi2001@gmail.com</h3><br/>
                 <h4>&#128172;&nbsp;For any queries :</h4>
