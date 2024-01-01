@@ -8,8 +8,8 @@ import Image4 from "./student.jpg";
 
 
 function Projects() {
-
-
+  
+    
     return (
         <>
         <div id="totaldiv1">

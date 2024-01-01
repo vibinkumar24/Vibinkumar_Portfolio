@@ -3,8 +3,20 @@ import "./contact.css"
 function Contact(){
 
 
-    function buttonClear() {
-        var a=alert("succesfully submitted ✔️...Have a good day ✨")
+    function Form(e) {
+        var a=document.getElementById("text1").value;
+        var b=document.getElementById("text2").value;
+        var c=document.getElementById("text3").value;
+        
+        if(a=="" || b=="" || c==""){
+            document.getElementById("error").innerHTML="Fill the all details";
+        }else{
+            var a=alert("succesfully submitted ✔️...Have a good day ✨");
+            document.getElementById("error").style.display="none";
+        }
+        e.preventDefault()
+        const element = document.getElementById('form');
+        element.reset()
       }
 
 
@@ -19,10 +31,16 @@ function Contact(){
                 <h3 id="myhome">&#9750;&nbsp;&nbsp;A603, A Block,<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Radiance Mercury Apartment, <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gandhi Nagar Society,<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Perumbakkam, Chennai-600100.</h3><br/>
                 <h3> &#9743;&nbsp;&nbsp;+919360249708</h3><br/>
                 <h3>&#9993;&nbsp;&nbsp;vibinpvi2001@gmail.com</h3><br/>
+                <form id="form">
                 <h4>&#128172;&nbsp;For any queries :</h4>
-                <form>
-                <textarea id="text"></textarea><br/>
-                <button id="btn" onClick={buttonClear} type="submit">Submit</button>
+                <h4>&nbsp;Name :</h4>
+                <input id="text1" class="text" type="text"></input>
+                <h4>&nbsp;E-mail :</h4>
+                <input id="text2" class="text" type="email"></input>
+                <h4>&nbsp;Queries :</h4>
+                <textarea id="text3" class="text"></textarea><br/>
+                <h4 style={{color:"red",fontFamily:"Nunito"}} id="error"></h4>
+                <button id="btn" onClick={Form} type="submit">Submit</button>
                 </form>
             </div>
 

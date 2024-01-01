@@ -1,13 +1,13 @@
 #totaldiv2{
     width: 100%;
-    height: 635px;
+    height: 880px;
     background-color: black;
 
 }
 
 @media (max-width:600px){
     #totaldiv2{
-        height: 720px;
+        height: 760px;
     }
 }
 
@@ -17,7 +17,7 @@
     margin-top: 0px;
     margin-left: 100px;
     width: 560px;
-    height: 525px;
+    height: 750px;
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 0 8px #00fffc;
@@ -28,7 +28,7 @@
     #eighthdiv{
         margin-left: 15px;
         width: 365px;
-        height: 470px;
+        height: 640px;
         padding: 10px;
     }
 
@@ -37,7 +37,7 @@
     }
 }
 
-#text{
+.text{
     background-color: black;
     color: white;
     margin-left:30px ;
@@ -61,7 +61,7 @@
 
 @media (max-width:600px){
     #copyRights{
-        margin-top: 110px;
+        margin-top: 25px;
         margin-left: 45px;
         font-size: 13px;
     }
@@ -70,3 +70,6 @@
     }
 }
 
+#error{
+    margin-left: 30px;
+}
