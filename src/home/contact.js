@@ -8,19 +8,21 @@ function Contact(){
         var b=document.getElementById("text2").value;
         var c=document.getElementById("text3").value;
         
-        console.log(a);
-        console.log(b);
-        console.log(c);
-
+        
         if(a=="" || b=="" || c==""){
             document.getElementById("error").innerHTML="*Fill the all details*";
         }else{
+           console.log(a);
+            console.log(b);
+            console.log(c);
             var a=alert("succesfully submitted ✔️...Have a good day ✨");
             document.getElementById("error").style.display="none";
+            const element = document.getElementById('form');
+        element.reset()
+        
+        
         }
         e.preventDefault()
-        const element = document.getElementById('form');
-        element.reset()
       }
 
 

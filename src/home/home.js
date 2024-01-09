@@ -14,7 +14,7 @@ import Image8 from "./project3.jpg";
 import Image9 from './verzeo.png'
 import Image10 from './Equad.png'
 import "./home.css";
-import About from "./about";
+
 
 
 
